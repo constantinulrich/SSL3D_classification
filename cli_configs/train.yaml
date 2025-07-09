@@ -93,7 +93,7 @@ trainer:
   deterministic: False
   precision: '16-mixed'
   enable_progress_bar: True
-  strategy: 'ddp'
+  # strategy: 'ddp'
   logger: 
     _target_: lightning.pytorch.loggers.WandbLogger
     save_dir: ${exp_dir}/${teamname}/classification/${data.module.name}

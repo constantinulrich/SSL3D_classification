@@ -7,5 +7,5 @@ model:
   finetune_method: full
   token_aggregation_method: null
 
-trainer:
-  strategy: 'ddp_find_unused_parameters_true'
+# trainer:
+  # strategy: 'ddp'
